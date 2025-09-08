@@ -18,14 +18,11 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const handleResumeDownload = () => {
-    // Convert Google Docs link to direct download
-    const driveUrl = "https://docs.google.com/document/d/1tM5LRCCW2eYUhB-3HXIwxi9Kmnlhtyva/edit?usp=sharing&ouid=108913065731991156964&rtpof=true&sd=true";
-    const fileId = driveUrl.match(/\/d\/(.*?)\//)?.[1];
-    if (fileId) {
-      const downloadUrl = `https://docs.google.com/document/d/${fileId}/export?format=pdf`;
-      window.open(downloadUrl, '_blank');
-    }
+    const directPdfUrl =
+      "https://drive.google.com/uc?export=download&id=1HDXCiqRZbdtfGQBOS406ghMEMJXvukWz";
+    window.open(directPdfUrl, "_blank");
   };
+
 
   return (
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">

@@ -18,58 +18,48 @@ interface Certificate {
 const certificatesData: Certificate[] = [
   {
     id: 1,
-    title: "React Developer Certification",
-    issuer: "Meta",
-    date: "2024-01",
-    description: "Comprehensive React.js development course covering modern React patterns, hooks, state management, and best practices for building scalable applications.",
-    skills: ["React", "JavaScript", "JSX", "Hooks", "Redux"],
+    title: "Back-end Developer Certification",
+    issuer: "Rjoice talent academy",
+    date: "2024-05",
+    skills: ["Node", "JavaScript", "Express", "MongoDB"],
+    description:
+      "Comprehensive Back-end development course covering modern Node patterns, express, mongodb, and best practices for building scalable applications.",
     credentialUrl: "#",
   },
+
   {
     id: 2,
-    title: "Full Stack Web Development",
-    issuer: "FreeCodeCamp",
-    date: "2023-12",
-    description: "Complete full-stack development certification covering frontend and backend technologies, databases, and deployment strategies.",
-    skills: ["HTML5", "CSS3", "JavaScript", "Node.js", "MongoDB"],
-    credentialUrl: "#",
+    title: "Basic Networking",
+    issuer: "Cisco",
+    date: "2025-08",
+    description:
+      "Fundamental networking concepts including TCP/IP, routing, switching, and network protocols.",
+    skills: ["Networking", "TCP/IP", "Routing", "Switching"],
+    credentialUrl:
+      "https://drive.google.com/file/d/1S89xGwpUbvlv_HpDbnxMYYpxBR8CjIwJ/view?usp=drive_link",
   },
   {
     id: 3,
-    title: "TypeScript Fundamentals",
-    issuer: "Microsoft Learn",
-    date: "2023-11",
-    description: "Advanced TypeScript certification covering type systems, generics, decorators, and integration with modern frameworks.",
-    skills: ["TypeScript", "JavaScript", "Types", "Generics"],
-    credentialUrl: "#",
+    title: "Java Programming",
+    issuer: "Oracle",
+    date: "2024-06",
+    description:
+      "Comprehensive Java certification covering object-oriented programming, core Java APIs, and JVM concepts.",
+    skills: ["Java", "OOP", "JVM", "APIs"],
+    credentialUrl:
+      "https://drive.google.com/file/d/1Vbedb1286my5Ll4nCRJXAJg2iOVLVFJc/view?usp=drive_link",
   },
   {
     id: 4,
-    title: "Cloud Computing Essentials",
-    issuer: "AWS",
-    date: "2023-10",
-    description: "Foundation course in cloud computing covering AWS services, deployment, scalability, and cloud architecture principles.",
-    skills: ["AWS", "Cloud Computing", "EC2", "S3", "Lambda"],
-    credentialUrl: "#",
+    title: "Data Structures & Algorithms",
+    issuer: "Infosys",
+    date: "2024-05",
+    description:
+      "In-depth study and application of fundamental data structures and algorithms for efficient problem solving.",
+    skills: ["Data Structures", "Algorithms", "Problem Solving"],
+    credentialUrl:
+      "https://drive.google.com/file/d/1yL3rjR9bIwRNSgnediLSqADWzzvv9cL1/view?usp=drive_link",
   },
-  {
-    id: 5,
-    title: "Git & Version Control",
-    issuer: "GitHub",
-    date: "2023-09",
-    description: "Professional Git workflow certification covering branching strategies, collaboration, and advanced Git operations.",
-    skills: ["Git", "GitHub", "Version Control", "Collaboration"],
-    credentialUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Responsive Web Design",
-    issuer: "FreeCodeCamp",
-    date: "2023-08",
-    description: "Modern responsive design principles using CSS Grid, Flexbox, and mobile-first design methodologies.",
-    skills: ["CSS3", "Responsive Design", "Flexbox", "Grid", "Mobile-First"],
-    credentialUrl: "#",
-  }
 ];
 
 const Certificates = () => {
@@ -138,7 +128,7 @@ const Certificates = () => {
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="h-4 w-4 mr-2" />
-                      View Credential
+                      View Certificate
                     </a>
                   </Button>
                 )}

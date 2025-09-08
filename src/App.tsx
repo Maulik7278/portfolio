@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import Navigation from "@/components/Navigation";
 import Home from "./pages/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Projects from "./pages/Projects";
 import Certificates from "./pages/Certificates";
 import NotFound from "./pages/NotFound";
@@ -23,6 +25,9 @@ const App = () => (
             <Navigation />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/HomePage" element={<Home />} />
+              <Route path="/About" element={<About />} />
+              <Route path="/Contact" element={<Contact />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/certificates" element={<Certificates />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
