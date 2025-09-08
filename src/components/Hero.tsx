@@ -2,6 +2,8 @@ import React from "react";
 import { Github, Linkedin, Mail, Download, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@/assets/IMG-20250331-WA0058.jpg";
+import { Link } from "react-router-dom";
+
 
 const Hero = () => {
   const handleResumeDownload = () => {
@@ -45,10 +47,12 @@ const Hero = () => {
               <Download className="h-5 w-5 mr-2" />
               Download Resume
             </Button>
-            <Button variant="outline" size="lg" onClick={scrollToContact}>
-              <Mail className="h-5 w-5 mr-2" />
-              Get In Touch
-            </Button>
+            <Link to="/contact">
+              <Button variant="outline" size="lg">
+                <Mail className="h-5 w-5 mr-2" />
+                Get In Touch
+              </Button>
+            </Link>
           </div>
 
           {/* Social Links */}
