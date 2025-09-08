@@ -75,14 +75,20 @@ const About = () => {
               excel at solving complex problems and enjoy sharing with
               open-source communities.
             </p>
-            <div className="flex flex-row items-center gap-8 mt-auto pt-8 border-t border-muted/30">
+            {/* this is mobaile wise show email */}
+            <div className="flex items-center gap-4 mt-auto pt-8 border-t border-muted/30">
+              {/* Location: icon always visible, text only on desktop */}
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="font-semibold text-primary">India</span>
+                <span className="hidden lg:inline font-semibold text-primary">
+                  India
+                </span>
               </div>
+
+              {/* Email: icon always visible, text only on desktop */}
               <div className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="font-semibold text-primary">
+                <span className="hidden lg:inline font-semibold text-primary">
                   maulikghasadiya2712@gmail.com
                 </span>
               </div>
