@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Project from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Certificates from "@/components/Certificates";
 import Contact from "@/components/Contact";
@@ -35,6 +36,7 @@ const Home = () => {
       <Hero />
       <About />
       <Skills />
+      <Project />
       <Certificates />
       <Contact />
       <Footer />
