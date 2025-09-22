@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   const handleResumeDownload = () => {
     const driveUrl =
-      "https://docs.google.com/document/d/1tM5LRCCW2eYUhB-3HXIwxi9Kmnlhtyva/edit?usp=sharing";
+      "https://drive.google.com/file/d/1wqc7odjHPAFWwXFCdkalrFOurdseohNa/view?usp=drive_link";
     const fileId = driveUrl.match(/\/d\/(.*?)\//)?.[1];
     if (fileId) {
       const downloadUrl = `https://docs.google.com/document/d/${fileId}/export?format=pdf`;

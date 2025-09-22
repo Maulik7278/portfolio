@@ -36,7 +36,7 @@ const certificatesData: Certificate[] = [
       "Fundamental networking concepts including TCP/IP, routing, switching, and network protocols.",
     skills: ["Networking", "TCP/IP", "Routing", "Switching"],
     credentialUrl:
-      "https://drive.google.com/file/d/1S89xGwpUbvlv_HpDbnxMYYpxBR8CjIwJ/view?usp=drive_link",
+      "https://drive.google.com/file/d/14WuCj2w-hlmaj-NkvK6cwAZFR05qz4mD/view?usp=drive_link",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const certificatesData: Certificate[] = [
       "Comprehensive Java certification covering object-oriented programming, core Java APIs, and JVM concepts.",
     skills: ["Java", "OOP", "JVM", "APIs"],
     credentialUrl:
-      "https://drive.google.com/file/d/1Vbedb1286my5Ll4nCRJXAJg2iOVLVFJc/view?usp=drive_link",
+      "https://drive.google.com/file/d/1qVtwecdsnJ6-9mv5eWpfBjDiW7fxXv_v/view?usp=drive_link",
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const certificatesData: Certificate[] = [
       "In-depth study and application of fundamental data structures and algorithms for efficient problem solving.",
     skills: ["Data Structures", "Algorithms", "Problem Solving"],
     credentialUrl:
-      "https://drive.google.com/file/d/1yL3rjR9bIwRNSgnediLSqADWzzvv9cL1/view?usp=drive_link",
+      "https://drive.google.com/file/d/1fdPcqKNlkQtFRf5-ECoJX5CKLpxdNcj5/view?usp=drive_link",
   },
 ];
 

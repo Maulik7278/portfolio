@@ -25,7 +25,7 @@ const certificatesPreview = [
       "Fundamental networking concepts including TCP/IP, routing, switching, and network protocols.",
     skills: ["Networking", "TCP/IP", "Routing", "Switching"],
     credentialUrl:
-      "https://drive.google.com/file/d/1S89xGwpUbvlv_HpDbnxMYYpxBR8CjIwJ/view?usp=drive_link",
+      "https://drive.google.com/file/d/14WuCj2w-hlmaj-NkvK6cwAZFR05qz4mD/view?usp=drive_link",
   },
 ];
 
