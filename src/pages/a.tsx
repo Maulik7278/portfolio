@@ -299,7 +299,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="rounded-xl bg-background p-6 flex flex-col items-center shadow">
-                  <span className="text-4xl font-bold text-primary">2+</span>
+                  <span className="text-4xl font-bold text-primary">1+</span>
                   <span className="text-xs text-muted-foreground tracking-wider mt-2">
                     Years Experience
                   </span>

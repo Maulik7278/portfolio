@@ -55,7 +55,7 @@ const About = () => {
                 </span>
               </div>
               <div className="rounded-xl bg-background p-6 flex flex-col items-center shadow">
-                <span className="text-4xl font-bold text-primary">2+</span>
+                <span className="text-4xl font-bold text-primary">1+</span>
                 <span className="text-xs text-muted-foreground tracking-wider mt-2">
                   Years Experience
                 </span>
@@ -69,11 +69,10 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              Passionate about building innovative web solutions, I create
-              modern full stack applications with clean code and elegant UX. My
-              expertise includes React, Node, and scalable backend systems. I
-              excel at solving complex problems and enjoy sharing with
-              open-source communities.
+              Full-stack developer passionate about creating modern, scalable
+              web apps with React & Node.js. I love solving complex problems,
+              building clean user experiences, and contributing to open-source
+              communities.
             </p>
             {/* this is mobaile wise show email */}
             <div className="flex items-center gap-4 mt-auto pt-8 border-t border-muted/30">
