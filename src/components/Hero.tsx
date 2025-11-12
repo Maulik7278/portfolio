@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 
 const Hero = () => {
-   const handleResumeDownload = () => {
-     const driveUrl =
-       "https://drive.google.com/file/d/1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l/view?usp=drive_link";
-     const fileId = driveUrl.match(/\/d\/(.*?)\//)?.[1];
-     if (fileId) {
-       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-       window.open(downloadUrl, "_blank");
-     }
+  const handleResumeDownload = () => {
+     
+     const fileId = "1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l";
+     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+     const link = document.createElement("a");
+     link.href = downloadUrl;
+     link.download = "Maulik_Resume.pdf"; // Optional custom filename
+     link.click();
    };
 
   const scrollToContact = () => {
