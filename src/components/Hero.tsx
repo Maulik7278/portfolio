@@ -6,14 +6,10 @@ import { Link } from "react-router-dom";
 
 
 const Hero = () => {
-  const handleResumeDownload = () => {
-     
-     const fileId = "1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l";
-     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-     const link = document.createElement("a");
-     link.href = downloadUrl;
-     link.download = "Maulik_Resume.pdf"; // Optional custom filename
-     link.click();
+   const handleResumeDownload = () => {
+     const downloadUrl =
+       "https://drive.google.com/uc?export=download&id=1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l";
+     window.open(downloadUrl, "_blank");
    };
 
   const scrollToContact = () => {
