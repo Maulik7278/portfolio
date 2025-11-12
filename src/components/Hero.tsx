@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 
 
 const Hero = () => {
-  const handleResumeDownload = () => {
-    const driveUrl =
-      "https://drive.google.com/file/d/1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l/view?usp=sharing";
-    const fileId = driveUrl.match(/\/d\/(.*?)\//)?.[1];
-    if (fileId) {
-      const downloadUrl = `https://docs.google.com/document/d/${fileId}/export?format=pdf`;
-      window.open(downloadUrl, "_blank");
-    }
-  };
+   const handleResumeDownload = () => {
+     const driveUrl =
+       "https://drive.google.com/file/d/1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l/view?usp=drive_link";
+     const fileId = driveUrl.match(/\/d\/(.*?)\//)?.[1];
+     if (fileId) {
+       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+       window.open(downloadUrl, "_blank");
+     }
+   };
 
   const scrollToContact = () => {
     const element = document.getElementById("contact");
