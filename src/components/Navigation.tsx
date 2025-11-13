@@ -19,7 +19,7 @@ const Navigation = () => {
 
   const handleResumeDownload = () => {
     const directPdfUrl =
-      "https://drive.google.com/uc?export=download&id=1HDXCiqRZbdtfGQBOS406ghMEMJXvukWz";
+      "https://drive.google.com/uc?export=download&id=1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l";
     window.open(directPdfUrl, "_blank");
   };
 
