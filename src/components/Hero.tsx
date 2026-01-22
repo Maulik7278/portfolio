@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   const handleResumeDownload = () => {
      const downloadUrl =
-       "https://drive.google.com/uc?export=download&id=1YggSqMTz0-ERKSohQJ5g_Oy7QnYWrl0l";
+       "https://drive.google.com/file/d/1tAEY2h3AKAGqyzXPdyqT7DQ1S6gIrNl-/view?usp=sharing";
      window.open(downloadUrl, "_blank");
    };
 
