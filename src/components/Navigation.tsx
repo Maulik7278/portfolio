@@ -19,7 +19,7 @@ const Navigation = () => {
 
   const handleResumeDownload = () => {
     const directPdfUrl =
-      "https://drive.google.com/file/d/1tAEY2h3AKAGqyzXPdyqT7DQ1S6gIrNl-/view?usp=sharing";
+      "https://drive.google.com/file/d/1tAEY2h3AKAGqyzXPdyqT7DQ1S6gIrNl-/view?usp=drive_link";
     window.open(directPdfUrl, "_blank");
   };
 
