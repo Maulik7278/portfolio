@@ -13,8 +13,8 @@ const categorizedSkills = {
     "REST APIs",
     "GraphQL",
   ],
-  "Programming Languages": ["JavaScript", "TypeScript", "Python"],
-  "Tools & Technologies": ["Git", "Docker", "AWS"],
+  "Programming Languages": ["JavaScript", "TypeScript", "Python","Java"],
+  "Tools & Technologies": ["Git", "Docker", "AWS","excal"],
 };
 
 const SkillsSection = () => {
